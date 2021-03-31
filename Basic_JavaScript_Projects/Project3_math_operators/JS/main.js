@@ -32,3 +32,19 @@ function negation_Operator()  {
     var x = 10;
     document.getElementById("Math").innerHTML = -x;
 }
+
+//Increment syntax
+var x = 5;
+x++;
+document.write(x);
+
+//Decrement syntax
+var x = 5.25;
+x--;
+document.write(x);
+
+//Random number between 0 and 1
+window.alert(Math.random());
+
+//Random number between __ and __
+window.alert(Math.random() * 100);
