@@ -27,7 +27,9 @@ function myFunction()  {
     " manufactored in " + Erik.Vehicle_Year;
 }
 
-function Nested_Function()  {
+
+/* Nested function */
+function count_Function()  {
     document.getElementById("Counting").innerHTML = Count();
     function Count()  {
         var Starting_Point = 9;
