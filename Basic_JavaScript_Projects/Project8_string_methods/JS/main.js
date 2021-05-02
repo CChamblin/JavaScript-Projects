@@ -28,3 +28,20 @@ function string_UpperCase()  {
 
 var text1 = "Hellow World!";        //String
 var text2 = text1.toUpperCase();    //text2 is text1 converted to upper
+
+function string_Method()  {
+    var X =182;
+    document.getElementById("Numbers_to_string").innerHTML = X.toString();
+}
+
+function precision_Method()  {
+    var X = 12938.3012987376112;
+    document.getElementById("Precision").innerHTML = X.toPrecision(10);
+}
+
+var x = 9.656;
+document.getElementById("example").innerHTML =
+    x.toFixed(0) + "<br>" +
+    x.toFixed(2) + "<br>" +
+    x.toFixed(4) + "<br>" +
+    x.toFixed(6);
