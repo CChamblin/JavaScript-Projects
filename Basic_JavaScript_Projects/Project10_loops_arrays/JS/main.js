@@ -1,3 +1,13 @@
+function Call_Loop() {
+    var Digit = "";
+    var X = 1;
+    while (X<11) {
+        Digit += "<br>" + X;
+        X++;
+    }
+    document.getElementById("Loop").innerHTML = Digit;
+}
+
 function myFunction()  {
     var str = "Hello World!";
     var n = str.length;
@@ -41,21 +51,21 @@ document.write(X);
 }
 document.write("<br>" + X);
 
-
 var  X=82;
-document.write(X);
+document.write("<br>" + X);
 {
     var X=33;   // example of var keyword which does not have block scope so that variable can be accessed from outside the block
     document.write("<br>" + X);
 }
 document.write("<br>" + X);
 
+
 // return statement that stops the execution of a funciton and returns a value from that function
 function reFunction() {
     return Math.PI;
-}
-
+};
 document.getElementById("pi").innerHTML = reFunction();
+
 
 // Object example using "this" keyword
 let car = {
