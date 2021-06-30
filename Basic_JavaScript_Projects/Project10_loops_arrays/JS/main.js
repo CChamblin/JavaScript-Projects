@@ -57,3 +57,15 @@ function reFunction() {
 
 document.getElementById("pi").innerHTML = reFunction();
 
+// Object example using "this" keyword
+let car = {
+    make: "Dodge ",
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ",
+    description : function() {
+        return "This car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Car_Object").innerHTML = car.description();
+
