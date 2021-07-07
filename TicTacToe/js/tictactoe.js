@@ -168,9 +168,9 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         //This method starts a new path.
         c.beginPath();
         //This method moves us to a starting point for our line.
-        c.moveTo(x1, y1)
+        c.moveTo(x1, y1);
         //This method indicates the end point in our line.
-        c.lineTo(x, y)
+        c.lineTo(x, y);
         //This method sets the width of our line.
         c.lineWidth = 10;
         //This method sets the color of our line.
