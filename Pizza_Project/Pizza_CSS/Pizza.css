@@ -2,7 +2,25 @@
     width:400px;
     height:470px;
     margin:10px auto;
-    background-color: rgb(216, 121, 19);
+}
+
+body {
+    background-color: rgb(240, 204, 44);
+}
+
+h1 {
+    color: rgb(202, 59, 15);
+    font-family: Arial;
+}
+
+h3 {
+    color: rgb(172, 49, 11);
+    font-family: Arial;
+}
+
+div {
+    color: black;
+    font-family: Arial;
 }
 
 #frmMenu {
