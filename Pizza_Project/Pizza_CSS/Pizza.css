@@ -24,18 +24,24 @@ div {
 }
 
 #frmMenu {
-    width:400px;
+    width:600px;
     height:200px;
 }
 
 #totalPrice {
     width:200px;
     height:190px;
-    margin:0 auto;
+    margin:20px auto;
     float:right;
 }
 
 .left {
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+.center {
     width:200px;
     height:200px;
     float:left;
@@ -64,4 +70,6 @@ div {
     margin:10px 0px 0px 100px;
     width:100px;
     height:40px;
+    display: block;
+    margin: 25px auto;
 }
