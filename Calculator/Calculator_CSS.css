@@ -1,5 +1,5 @@
 html {
-    font-size: 70%
+    font-size: 70%;
     box-sizing: border-box;
 }
 
@@ -12,7 +12,7 @@ html {
 .calculator {
     border: 1.2px solid darkslategray;
     border-radius: 7px;
-    position: absoulte;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
