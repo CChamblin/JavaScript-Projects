@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <img src="./Images/klematis.jpg" alt="flower" width="150" height="110">
+        <img src="./Images/klematis2.jpg" alt="flower" width="150" height="110">
+        <img src="./Images/smiley.gif" alt="Smiley Face" width="50" height="50">
+
+        <p>Click the button to display the number of images in the document.</p>
+
+        <button onclick="myFunction()">Try it</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                var x = document.images.length;
+                document.getElementById("demo").innerHTML = x;
+            }
+        </script>
+
+    </body>
+</html>
