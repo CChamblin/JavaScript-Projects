@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function validateForm() {
+                let x = document.forms["myForm"]["phonenumber"].value;
+                if (x == "") {
+                    alert("Phone number must be filled out");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+
+        <h2>HTML Forms</h2>
+
+        <form action="/action_page.php">
+            <label for="phonenumber">Phone Number:</label><br>
+            <input type="text" id="phonenumber" name="phonenumber" value="867-5309"><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+    </body>
+</html>
