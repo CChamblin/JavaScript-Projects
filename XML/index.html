@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <p id="XML_Demo"></p>
+        <p id="XML_Example"></p>
         <script>
             var XML_Parser, XML_Document;
 
             // creates a text string
-            var Movie = "<movie>" + 
-            "<title>Schindler\'s List</title>" + 
-            "<director>Steven Spielberg</director>" + 
-            "<year>1993</year>" + 
-            "</movie>";
+            var Food = "<food>" + 
+            "<dish>Spaghetti</dish>" + 
+            "<chef>Stephen</chef>" + 
+            "</food>";
 
             // creates an XML DOM parser
             XML_Parser = new DOMParser();
 
             // creates a new XML DOM object using the text string
-            XML_Document = XML_Parser.parseFromString(Movie, "text/xml");
+            XML_Document = XML_Parser.parseFromString(Food, "text/xml");
 
             document.getElementById("XML_Example").innerHTML = 
-            XML_Document.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+            XML_Document.getElementsByTagName("dish")[0].childNodes[0].nodeValue;
         </script>
     </body>
 </html>

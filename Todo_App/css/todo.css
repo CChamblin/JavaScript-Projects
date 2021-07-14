@@ -6,6 +6,7 @@ html {
 body {
     max-width: 50px;
     margin: 0 auto;
+    text-align: center;
 }
 
 input {
@@ -27,6 +28,19 @@ li {
     margin: 0;
 }
 
-footer {
-    display: block
+#footer {
+    background-color: blueviolet;
+    font-weight: bold;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    border-top: solid;
+    text-align: center;
+    padding-top: 10px
+}
+
+.remove {
+    padding-bottom: 5px;
 }
