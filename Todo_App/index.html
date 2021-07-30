@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="css/todo.css">
-        <script src="js/todo.js" defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js" defer></script>
+        <title>To Do List</title>
     </head>
     <body>
 
-        <!-- To Do App Button -->
-        <input id="task"><button id="add">Todo App Project</button>
-        <!-- To Do App Button -->
-        
-        <hr>
-
-        <!-- To Do List Items -->
-        <div id="todos"></div>
-        <!-- End To Do List Items -->
-
-        <!-- Footer -->
-        <div id="footer">
-            Christopher Chamblin &nbsp;|&nbsp; 07/13/2021
+        <!-- To Do List -->
+        <h1>To Do List</h1>
+        <div class="container">
+            <input id="inputField" type="text"><button id="addToDo">+</button>
+            <div class="to-dos" id="toDoContainer"></div>
         </div>
-        <!-- End Footer -->
+        <!-- End To Do List -->
 
     </body>
 </html>
