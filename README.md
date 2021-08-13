@@ -8,14 +8,6 @@ focusing on specific examples of JavaScript code such as the some() method.
 
 ## Projects
 
-### Pizza Menu
-
-### Tic-Tac-Toe Game
-
-### Calculator
-
-### ToDo App
-
 <br>
 
 ### Pizza Menu
