@@ -14,6 +14,8 @@ focusing on specific examples of JavaScript code such as the some() method.
 
 ### ToDo App
 
+<br>
+
 ### Pizza Menu
 This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and calculates a price for the order.
 
