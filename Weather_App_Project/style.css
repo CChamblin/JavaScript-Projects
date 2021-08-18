@@ -1,0 +1,46 @@
+body{
+    height: 100%;
+    background-color: cadetblue;
+    background: linear-gradient(to right, rgb(121, 145, 187), rgb(174, 201, 248), rgb(148, 186, 252));
+}
+
+.wpBackground {
+    height: 100vh;
+    min-height: 500px;
+    background: url(images/WeatherPrpBG.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+:root {
+
+    /* Color Theme Swatches in RGBA */
+    --CFColors-darkGrey-rgba: rgba(33, 33, 33, 1);
+    --CFColors-grayBlue-rgba: rgba(44, 66, 81, .5);
+    --CfColors-darkBlue-rgba: rgba(0, 115, 171, .5);
+    --CFColors-Orange-rgba: rgba(247, 148, 29, .5);
+    --CFColors-ltGrey-rgba: rgba(223, 227, 228, .5);
+    --CFColors-Black-rgba: rgba(0, 0, 0, 1);
+}
+
+
+#wpTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    color: var(--CFColors-darkgrey-rgba);
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: var(--CFColors-darkgrey-rgba);
+}
+
+#wpCurrent {
+    background-color: var(--CFColors-grayBlue-rgba);
+    color: white;
+    resize: vertical;
+}
