@@ -1,0 +1,40 @@
+/* Styles go here */
+
+/** Styles **/
+
+#colors {
+    float: left;
+    overflow: hidden;
+    width: 280px;
+}
+#colors li {
+    background-color: midnightblue;
+    color: black;
+    cursor: auto;
+    font-size: 30px;
+    line-height: 100px;
+    list-style-position: inside;
+    list-style-type: none;
+    height: 100px;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#colors li.orangered { background-color: orangered; }
+#colors li.purple { background-color: purple; }
+#colors li.lime { background-color: lime; }
+#colors li.on { background-color: black; }
+p#start { cursor: pointer; color: blue; }
+p#start:hover { text-decoration: underline; }
+.playing #colors li {
+    cursor: pointer;
+}
+.game-over #colors li {
+    opacity: 0.5;
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

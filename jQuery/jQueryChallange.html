@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Challenges</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="jQueryChallenge.js"></script>
+    </head>
+
+    <body>
+
+    <!-- Selector -->
+
+    <h3>Element Selector</h3>
+
+    <h4 id="elementTest">This is a test of the element selector.</h4>
+    <p>Click the button below to hide the header above.</p>
+    <button id="element">Click me.</button>
+    <br>
+    
+    <h3>#id Selector</h3>
+
+    <p>This is a regular paragraph.</p>
+    <p id="idTest">This paragraph contains a unique id.</p>
+    <button id="idSelector">Click me.</button>
+    <br>
+    <br>
+
+    <h3 class="testA">Class Selector</h3>
+
+    <p class="testA">Click the button below to hide this paragraph and the header above.</p>
+    <button id="classTest">Click me.</button>
+    <br>
+
+    <h3>First-Child Selector</h3>
+
+    <p>List 1:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Tea</li>
+    </ul>
+
+    <p>List 2:</p>
+    <ul>
+        <li>Chicken</li>
+        <li>Tofu</li>
+        <li>Spinach</li>
+    </ul>
+
+    <button id="firstChild">Click me.</button>
+
+    <!-- End Selector-->
+        
+    <!-- Events -->
+
+    <!-- Click Method-->
+    <h3>Click & Double Click</h3>
+
+    <p class="click">If you click on me, I will disappear</p>
+    <p class="click">Click me away!</p>
+    <p class="click">Click me too!</p>
+
+    <p class="dblclick">Double click me!</p>
+    <!-- Click Method-->
+
+    <!-- Hover Method-->
+    <h3>Hover</h3>
+
+    <p id="hover">Hover over this paragraph.</p>
+    <!-- Hover Method-->
+
+    <!-- Blur Method-->
+    <h3>Blur</h3>
+
+    Name: <input type="text" name="fullname"><br>
+    Email: <input type="text" name="email">
+    <!-- Blur Method-->
+
+    <!-- End Events -->
+
+    <br><br>
+
+    <!-- Methods -->
+
+    <!-- Hide & Show -->
+    <h3>Hide & Show</h3>
+
+    <p id="hs">If you click on the "Hide" button, I will disappear.</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <!-- Hide & Show -->
+
+    <br><br>
+
+    <!-- Toggle -->
+    <h3>Toggle</h3>
+
+    <button id="toggle">Toggle between hiding and showing the paragraph</button>
+    <p id="t">This is a paragraph that can be toggled on and off</p>
+    <!-- Toggle-->
+
+    <!-- End Methods -->
+
+    <br>
+
+    <!-- Effects -->
+
+    <!-- Fade Out -->
+    <h3>Fade Out</h3>
+
+    <p>Demonstrate fadeOut() with different parameters.</p>
+    
+    <button id="fadeout">Click to fade out boxes</button>
+    <br>
+    <br>
+    <div id="box1" class="box" style="width:4em;height:4em;background-color:turquoise;"></div>
+    <br>
+    <div id="box2" class="box" style="width:4em;height:4em;background-color:teal;"></div>
+    <br>
+    <div id="box3" class="box" style="width:4em;height:4em;background-color:aqua;"></div>
+    <!-- Fade Out -->
+
+    <br>
+    <br>
+
+    <!-- Slide Down & Stop Animation -->
+    <h3>Slide Down & Stop Animation</h3>
+
+    <style>
+    #panel, #flip {
+        padding: 7px;
+        text-align: center;
+        background-color: blueviolet;
+        border: solid 3px black;
+    }
+
+    #panel {
+        padding: 50px;
+        display: none;
+    }
+    </style>
+    <button id="stop">Stop sliding</button>
+    <br>
+    <br>
+    <div id="flip">Click to slide down panel</div>
+    <div id="panel">Hello world!</div>
+    <!-- Slide Down & Stop Animation -->
+
+    <br>
+    <br>
+
+    <!-- Animate & Callback Funtion -->
+    <h3>Animate & Callback</h3>
+
+    <button id="animate">Start Animation</button>
+    <br>
+    <br>
+    <div id="animation" style="background: lime;height:80px;width:160px;position:relative;">HELLO</div>
+    <!-- Animate & Callback Function-->
+
+    <br>
+
+    <!-- Chaining -->
+    <h3>Chaining</h3>
+
+    <p id="p1">jQuery is fun!!</p>
+    <button id="chain">Click me</button>
+    <!-- Chaining -->
+
+    <!-- End Effects -->
+
+    <br>
+    <br>
+
+    <!-- DOM Manipulation -->
+    <h2>DOM Manipulation</h2>
+
+    <!-- Get Content - Text & HTML -->
+    <h3>Get Content - Text & HTML</h3>
+
+    <p id="test">This is some <b>bold</b> text in a paragraph.</p>
+
+    <button id="btn1">Show Text</button>
+    <button id="btn2">Show HTML</button>
+    <!-- Get Content - Text & HTML -->
+
+    <br>
+    <br>
+
+    <!-- Get Content - Attribute -->
+    <h3>Get Content - Attribute</h3>
+    
+    <p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
+
+    <button id="attr">Show href Value</button>
+    <!-- Get Content - Attribute -->
+
+    <br>
+    <br>
+
+    <!-- Set Content - Text & HTML & Value -->
+    <h3>Set Content - Text & HTML & Value</h3>
+    <p id="test3">This is a paragraph.</p>
+    <p id="test4">This is another paragraph.</p>
+
+    <p>Input Field: <input type="text" id="test5" value="Mickey Mouse"></p>
+
+    <button id="btn3">Set Text</button>
+    <button id="btn4">Set HTML</button>
+    <button id="btn5">Set Value</button>
+    <!-- Set Content - Text & HTML & Value -->
+
+    <br>
+    <br>
+
+    <!-- Set Content - Attribute -->
+    <h3>Set Content - Attribute</h3>
+
+    <p><a href="https://www.w3schools.com" id="w3s2">W3Schools.com</a></p>
+
+    <button id="setattr">Change href Value</button>
+
+    <p>Mouse over the link (or click on it) to see that the value of the href 
+    attribute has changed.</p>
+    <!-- Set Content - Attribute -->
+
+    <!-- End DOM Manipulation -->
+
+    </body>
+
+</html>
