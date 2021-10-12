@@ -8,6 +8,9 @@ focusing on specific examples of JavaScript code such as the some() method.
 
 ## Projects
 
+### Simon Says
+Simon Says game app utilizing jQuery to build functionality for interactive game play.
+
 ### Pizza Menu
 This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and calculates a price for the order.
 
